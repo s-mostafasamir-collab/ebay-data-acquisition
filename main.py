@@ -70,7 +70,7 @@ print(df[['Category', 'URL']].head(10). to_string(index=True, justify="left"))
 params={
   "engine": "amazon",
   "k":"electronics",
-  "api_key": "72147cabff91cd32888f1037c43915180cbb95f2712dd79d660a83a1566d610e"
+  "api_key": os.getenv("SERPAPI_KEY")
 }
 
 search = GoogleSearch(params)

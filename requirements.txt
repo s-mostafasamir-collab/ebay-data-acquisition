@@ -1,0 +1,12 @@
+beautifulsoup4
+requests
+pandas
+selenium
+networkx
+matplotlib
+seaborn
+google-search-results
+webdriver-manager
+html5lib
+numpy
+python-dotenv

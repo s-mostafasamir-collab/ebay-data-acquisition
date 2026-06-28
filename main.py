@@ -7,6 +7,8 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 from serpapi import GoogleSearch
+import os
+from dotenv import load_dotenv
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -25,7 +27,7 @@ from tkinter import ttk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from itertools import combinations
 from collections import defaultdict
-
+load_dotenv()
 
 # ─────────────────────────────────────────
 # PART 1 — SCRAPE EBAY CATEGORIES

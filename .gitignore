@@ -1,0 +1,25 @@
+# Environment & API keys - NEVER upload these
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated data files
+data/*.csv
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
